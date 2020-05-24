@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet"  href="../css/media-576.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="../css/media-576.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
     <title>Rick and Morty</title>
@@ -16,7 +16,7 @@
             <img alt="" class="ml-2 m-img" src="../assets/img/logo.png" style="height: 95%; width: 55%;">
         </div>
         <div class="col d-flex justify-content-center align-items-center">
-            <h1 class="" style="font-family: 'Balsamiq Sans', cursive; color: white">WHAT CHARACTER ARE YOU?</h1>
+            <h1 class="m-title" style="font-family: 'Balsamiq Sans', cursive; color: white">WHAT CHARACTER ARE YOU?</h1>
         </div>
         <div class="col-2"></div>
     </div>
@@ -26,12 +26,18 @@
         <div class="col h-100"></div>
         <div class="col h-100 d-flex justify-content-center align-items-center">
             <div class="flex-column d-flex ">
-                <div class="card" style="width: 18rem;">
-                    <img alt="..." class="card-img-top" src="../assets/img/eyes.png">
+                <div class="card information" style="width: 18rem;">
+                    <div id="cardImg">
+
+                    </div>
+
                     <div class="card-body">
-                        <h5 class="card-title">Name Character</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <div class="" id="title">
+                            <!--                            <h5 class="card-title ">Name Character</h5>-->
+                        </div>
+                        <ul class="list-group list-group-flush" id="description">
+
+                        </ul>
                     </div>
                 </div>
                 <div class="mt-2 w-100">
@@ -48,5 +54,5 @@
     </p>
 </footer>
 </body>
-<script src="../js/main.js"></script>
+<script src="../js/main.js" type="module"></script>
 </html>

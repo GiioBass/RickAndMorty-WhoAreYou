@@ -3,6 +3,9 @@
     .m-img {
         visibility: hidden;
     }
+    .m-title{
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 767px) {
@@ -10,7 +13,6 @@
         height: 50% !important;
         width: 110% !important;
         margin-top: 35px;
-
     }
 }
 
