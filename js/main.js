@@ -1,25 +1,21 @@
 import dataApi from './api.js';
 
-const button = document.getElementById('action');
 const URL = 'https://rickandmortyapi.com/api/character';
+const button = document.getElementById('action');
 const idRandom = () => {
     return Math.floor(Math.random() * 20);
 }
 const pageRandom = () => {
     return Math.floor(Math.random() * 30);
 }
-const showImg = false;
 
 function main() {
     pressButton();
     imgFirstLoadPage();
-
-
 }
 
 function imgFirstLoadPage() {
     document.getElementById('loader').style.display = 'none';
-    // document.getElementById('cardInfo').style.display = 'none';
 
     cardImg.innerHTML = `
         <img alt="..." class="card-img-top" src=" ../assets/img/eyes.png">
@@ -64,6 +60,5 @@ function conditionImageDeadOrAliveFilter(data, id) {
         document.getElementById('cardImg').style.filter = 'grayscale(0%)';
     }
 }
-
 
 main();
