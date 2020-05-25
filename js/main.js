@@ -18,7 +18,7 @@ function imgFirstLoadPage() {
     document.getElementById('loader').style.display = 'none';
 
     cardImg.innerHTML = `
-        <img alt="..." class="card-img-top" src=" ../assets/img/eyes.png">
+        <img alt="..." class="card-img-top" src=" ./assets/img/eyes.png">
     `
 }
 
